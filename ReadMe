@@ -23,7 +23,7 @@ Change the version number in DesignPatternsHotelRepo and run your test
 
 Note that when project is compiled, only the packages in main are compiled (Not test package)
 
-JFrog - Artifactory Management (More optimised to manage code among team)
+JFrog - Artifactory Management (More optimised to manage code among teams)
 
 https://adexdevstack.jfrog.io
 Username: shaytesting1@gmail.com

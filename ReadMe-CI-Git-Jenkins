@@ -1,1 +1,25 @@
  https://github.com/adexstack/designpatterns.git
+
+C:\Program Files\Jenkins
+http://localhost:8080/
+admin/c38f1dce532341eeb6592428fe44bc39
+C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\secrets
+
+Failing with 401 Authorization in Jenkins to JFrog ???
+
+Configure jenkins - Github servers (click Advanced) - checkbox ;specify' - copy http://localhost:8080/github-webhook/
+Build trigger - check Github hook trigger
+
+Download https://www.socketxp.com/download as webhook on github does not accept localhost ip
+login to portal.socketxp.com using shaytesting1      -. get the auth token from the web page
+
+steps to convert your localhost to publicip
+-----------------------------------------------
+C:\Users\saade\Downloads>socketxp login "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MTU1ODAyNTAsImlkIjoic2hheXRlc3RpbmcxQGdtYWlsLmNvbSJ9.Q24OP5SwT7uUhpDuzomj8JHZNHeyaWFhyTGoJEDG-D0"
+Login Succeeded.
+User [] Email [shaytesting1@gmail.com].
+
+C:\Users\saade\Downloads>socketxp relay http://localhost:8080/github-webhook/
+
+Connected.
+Public URL -> https://webhook.socketxp.com/shaytesting1-0m3v7as7
