@@ -1,0 +1,38 @@
+Test is created in DesignPatternsHotelRepo
+
+-Single responsibility Principle:
+ ---------------------------------
+ Every module, class should have responsibility over a single part of the application's functionality. (Writing decoupled codes)
+
+ Strategy Design Pattern (policy design pattern)
+  ----------------------------------------------
+  is a behavioural design pattern that allows us to select an algorithm at runtime.
+ The code receiveds run-time instructions to decide which group of the algoritms to use.
+ This allows the algothm used to vary independently from the context, clients, and codes that use it.
+ Use this strategy when you have a lot of similar classes that only differ in the way they execute some behavior. (similar functionality)
+
+
+ -Factory Design Pattern :
+ --------------------------
+ Creating objects by calling factory method rather than calling a constructor; We create object without
+  exposing the creation logic to the client and refer to the newly created object using a common interface.
+
+
+To update this project, Clone this Update and update with reusable components and rebuild the project(bump the version number)
+Change the version number in DesignPatternsHotelRepo and run your test
+
+Note that when project is compiled, only the packages in main are compiled (Not test package)
+
+JFrog - Artifactory Management (More optimised to manage code among team)
+
+https://adexdevstack.jfrog.io
+Username: shaytesting1@gmail.com
+Password: Bidemi11!
+
+Create repository for Maven Packages
+Provide JFrog Repository Management details in Maven POM.xml file
+Update Maven C:\Users\saade\.m2\settings.xml file so maven project knows to pull artifacts from jfrog
+Deploy snapshat jar to jfrog artefactory with mvn deploy command
+mvn deploy -DskipTests
+
+Provide same JFrog Repository Management details in Maven POM.xml file In the child pom
